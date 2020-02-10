@@ -1,0 +1,49 @@
+
+.event{
+	
+	font-size:15px;
+	color:darkred ;
+	font-weight:bold;
+	}
+	.event:hover{
+	color:blue;
+	
+	}
+	.time{
+	font-size:13px;
+	color:forestgreen;
+	}
+.shared {
+font-size:15px;
+color:darkviolet;
+font-weight:bold;
+}
+	.shared:hover{
+	color:blue;
+	}
+.options{
+font-size:40px;
+color:navy;
+text-align:center;
+}
+.html{
+text-align:center;
+font-size:30px;
+color:navy;
+}
+.red{
+color:red;
+font-size:20px;
+}
+.yellow{
+color:yellow;
+font-size:20px;
+}
+.green{
+color:green;
+font-size:20px;
+}
+.blue{
+color:blue;
+font-size:20px;
+}
