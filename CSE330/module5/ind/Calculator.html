@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head><title>Calculator</title></head>
+<script type = "text/javascript"> 
+	function calcFunct(){
+		//var num1 = document.getElementById('num1').value;
+		//var num2 = document.getElementById('num2').value;
+		//var calcType = document.getElementByName('calculation').value;
+		if(document.getElementById('add').checked){
+			add();
+		}
+		if(document.getElementById('subtract').checked){
+			subtract();
+		}
+		if(document.getElementById('divide').checked){
+			divide();
+		}
+		if(document.getElementById('multiply').checked){
+			multiply();
+		}
+	}
+	function add(){
+	var num1 = document.getElementById('num1').value;
+	var num2 = document.getElementById('num2').value;
+	document.getElementById('p1').innerHTML = "Answer: " + (Number(num1)+ Number(num2));
+	}
+	function subtract(){
+	var num1 = document.getElementById('num1').value;
+	var num2 = document.getElementById('num2').value;
+	document.getElementById('p1').innerHTML = "Answer: " + (Number(num1)- Number(num2));
+	}
+	function divide(){
+	var num1 = document.getElementById('num1').value;
+	var num2 = document.getElementById('num2').value;
+	if(Number(num2) != 0){
+	document.getElementById('p1').innerHTML = "Answer: " + (Number(num1)/ Number(num2));
+	}
+	else { 
+	document.getElementById('p1').innerHTML = "Answer: Can't Divide by Zero";
+	} 
+	}
+	function multiply(){
+	var num1 = document.getElementById('num1').value;
+	var num2 = document.getElementById('num2').value;
+	document.getElementById('p1').innerHTML = "Answer: " + (Number(num1)* Number(num2));
+	}
+</script>
+
+<body>
+	<form>
+		<p>
+		First Number: <input type="number" step="any" name="num1" id='num1'/>
+		</p>
+		<p>
+		Second Number:<input type="number" step="any" name="num2" id='num2'/>
+		</p>
+		<p>
+		<Strong>Operation</Strong>
+		</p>
+		<div id = 'type'> 
+		<Input type ='Radio' Name='calculation' value='add' id='add' >Add
+		<Input type ='Radio' Name='calculation' value='subtract' id= 'subtract' >Subtract
+		<Input type ='Radio' Name='calculation' value='multiply' id= 'multiply' >Multiply
+		<Input type ='Radio' Name='calculation' value='divide' id= 'divide'>Divide 
+		</div>
+		<p id = 'p1'></p>
+	</form>
+		<script> 
+		document.getElementById('num1').addEventListener("keyup",calcFunct,false);
+		document.getElementById('num2').addEventListener("keyup",calcFunct,false);
+		document.getElementById('add').addEventListener("click",calcFunct,false);
+		document.getElementById('subtract').addEventListener("click",calcFunct,false);
+		document.getElementById('divide').addEventListener("click",calcFunct,false);
+		document.getElementById('multiply').addEventListener("click",calcFunct,false);
+		</script>
+</body>
+</html>

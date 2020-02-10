@@ -1,0 +1,37 @@
+	
+	
+body{
+	background-color: gray;
+	text-align:center
+}
+h1{
+	font-family:"Allerta Stencil" ; 
+	font-size:60px; 
+	text-align:center; color:brown; 
+	text-shadow: 5px 5px #FFFFFF;
+	color: brown;
+	border:5px outset black; 
+	}  
+img{ 
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+	.dwight{ 
+		height:500px;
+		width:500px;
+
+} 
+
+	.whiteballoon{
+		height:200px ;
+		width:200px;
+		float:right
+
+}
+	.brownballoon{
+		height:200px ;
+		width:200px;
+		float:left ;
+}

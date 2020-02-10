@@ -1,0 +1,143 @@
+/* css from https://www.w3schools.com/howto/howto_css_calendar.asp */
+ ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 95%;
+    background: darkorange;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+/* end calendar from w3 */
+/* https://www.w3schools.com/css/css_grid.asp */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px; 
+  font-size: 30px;
+  text-align: center !important;
+ 
+  /* end grid from w3 */
+}
+.today{
+background-color: lime !important;
+
+}
+.event{
+	
+	font-size:15px;
+	color:darkred ;
+	font-weight:bold;
+	}
+	.event:hover{
+	color:blue;
+	
+	}
+	.time{
+	font-size:13px;
+	color:forestgreen;
+	}
+.shared {
+font-size:15px;
+color:darkviolet;
+font-weight:bold;
+}
+	.shared:hover{
+	color:blue;
+	}
+.options{
+font-size:40px;
+color:navy;
+text-align:center;
+}
+.html{
+text-align:center;
+font-size:30px;
+color:navy;
+}
+.red{
+color:red;
+font-size:20px;
+}
+.yellow{
+color:yellow;
+font-size:20px;
+}
+.green{
+color:green;
+font-size:20px;
+}
+.blue{
+color:blue;
+font-size:20px;
+}

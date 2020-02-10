@@ -1,0 +1,63 @@
+	<style> 
+body{
+	background-color: lightgray !important;
+	text-align:left
+}
+h1{
+	font-family:"Allerta Stencil" ; 
+	font-size:40px; 
+	text-align:center;  
+	color: deepskyblue ;
+	border:7px outset black; 
+	}  
+h2{ 
+	font-family:"Allerta Stencil" ; 
+	font-size:30px; 
+	text-align:left;  
+	color: maroon ;
+}
+h3{
+font-family:"Arial" ; 
+	font-size:18px; 
+	text-align:left;  
+	color: whitesmoke ;
+
+	}
+h4{ 
+font-family:"Times New Roman" ; 
+	font-size:25px; 
+	text-align:left;  
+	color: darkorange ;
+	}
+h5{
+	
+	font-family:"Arial" ; 
+	font-size:18px; 
+	text-align:left;
+	text-decoration:none;  
+	color: blue ;
+	}
+	tab { 
+	padding-left: 4em;
+	}
+
+	a.class1 { 
+	color: deepskyblue;
+	text-decoration:none;
+	font-size: 15px;
+	}
+	a.class1:hover{
+	color: coral;
+	}
+	a.class2 { 
+	font-family:"Arial" ; 
+	font-size:18px; 
+	text-align:left;
+	text-decoration:none;  
+	color: blue ;
+	}
+	a.class2:hover{
+	color: springgreen;
+	}
+	
+</style>
